@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	possible, err := q1.DivideWatermelon(100)
+	possible, err := q1.DivideWatermelon(2)
 	fmt.Printf("Q1:\tpossible: %v,\terr: %v\n", possible, err)
 
 	solved := q2.ProblemsSolved([][3]bool{{true, true, true}, {false, false, false}, {true, false, true}})
@@ -20,7 +20,7 @@ func main() {
 	pieces, err := q3.DominoPieces(5, 5)
 	fmt.Printf("Q3:\tpieces: %v,\terr: %v\n", pieces, err)
 
-	order, err := q4.ClassifyPrices([]int{5, 6, 10})
+	order, err := q4.ClassifyPrices([]int{1, 2, 3, 4, 5})
 	fmt.Printf("Q4:\torder: %v,\terr: %v\n", order, err)
 
 	processString := q5.ProcessString("HelloWorld")
